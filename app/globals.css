@@ -26,6 +26,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.bg {
+  background-color: #CF9704;
+  background-image: url('/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
