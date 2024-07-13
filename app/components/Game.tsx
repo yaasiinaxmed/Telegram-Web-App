@@ -39,7 +39,7 @@ const Game: React.FC = () => {
           </button>
         ))}
       </div>
-      <button className="bg-[#2A266A] p-3 rounded-lg text-white px-8 py-2">
+      <button className="bg-[#2A266A] p-3 rounded-lg text-white px-8 py-2 transation-all hover:scale-105">
         Next
       </button>
     </div>
